@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
-import ContextChild from "./ContextChild";
-import api from "./ApiHandler";
+import ContextChild from "./Components/ContextChild";
+import api from "./Helpers/ApiHandler";
 const users = [{ name: "A" }, { name: "B" }, { name: "C" }];
 const { Provider, Consumer } = React.createContext({ users });
 
